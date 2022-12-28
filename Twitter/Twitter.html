@@ -1,10 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UFT-8">
+    <meta charset="UTF-8">
     <title>Twitter - Home</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/sidebar-left.css">
+    <link rel="stylesheet" href="/styles/timeline.css">
+    <link rel="stylesheet" href="/styles/sidebar-right.css">
+
+    <!--Fonts-->
+      <!--Roboto-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+      <!--Poppins-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
-    
+    <main class="main-layout">
+      <!--Sidebar Left-->
+      <div class="sidebar-left">
+
+      </div>
+      <!--Timeline-->
+      <div class="timeline">
+        <div class="user-tweet-board">
+          <!--Top Row-->
+          <div class="user-tweet-board-top-row">
+            <div class="user-tweet-board-top-row-latest-tweets">Latest Tweets</div>
+            <img class="user-tweet-board-top-row-icon" src="/icons/icon-timeline-setting.png" alt="timeline-settings">
+          </div>
+          <!--Middle Row-->
+          <div class="user-tweet-board-middle-row">
+            <img class="user-tweet-board-middle-row-profile-pic" src="/images/profile-pic.jfif" alt="profile-picture">
+            <input class="user-tweet-board-middle-row-input" type="text" placeholder="what's happening?">
+          </div>
+          <!--Bottom Row-->
+          <div class="user-tweet-board-bottom-row">
+            <div class="user-tweet-board-bottom-row-icons-row">
+              <img class="user-tweet-board-bottom-row-icons" src="/icons/icon-media.png" alt="icon-media">
+              <img class="user-tweet-board-bottom-row-icons" src="/icons/icon-gif.png" alt="icon-gif">
+              <img class="user-tweet-board-bottom-row-icons" src="/icons/icon-poll.png" alt="icon-poll">
+              <img class="user-tweet-board-bottom-row-icons" src="/icons/icon-emoji.png" alt="icon-emoji">
+              <img class="user-tweet-board-bottom-row-icons" src="/icons/icon-schedule.png" alt="icon-schedule">
+              <img class="user-tweet-board-bottom-row-icons" src="/icons/icon-location.png" alt="icon-location">
+            </div>
+            <button class="user-tweet-board-bottom-row-tweet-button">Tweet</button>
+          </div>
+        </div>
+      </div>
+      <!--Sidebar Right-->
+      <div class="sidebar-right">
+
+      </div>
+    </main>
   </body>
 </html>
