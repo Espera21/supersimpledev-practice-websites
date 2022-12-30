@@ -9,3 +9,13 @@
   flex: auto;
   height: 2000px;
 }
+.sidebar-right-recommendations {
+  background-color: rgb(36, 36, 36);
+
+  border-radius: 14px;
+  
+  width: 340px;
+  height: 1200px;
+
+  margin: 100px 30px;
+}
