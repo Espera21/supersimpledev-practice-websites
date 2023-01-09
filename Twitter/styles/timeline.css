@@ -29,7 +29,7 @@
 .user-tweet-board-fixed-top-row {
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(8px);
-
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
